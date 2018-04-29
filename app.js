@@ -1,10 +1,10 @@
 function age18(){
-    var d = new Date();
-    var day = d.getDate();
-    var year = d.getFullYear();
+    var date = new Date();
+    var day = date.getDate();
+    var year = date.getFullYear();
     var month;
     var runCount = 0;
-    switch(d.getMonth())
+    switch(date.getMonth())
         {
         case 0:
             month="January";
